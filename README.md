@@ -1,5 +1,3 @@
-#T1 Dashboard Template (on developement)
-
 # T1 Dashboard Template
 
 _under development_
