@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>T1 Solutions</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="login-body">
+      <div class="login-left">
+        <button class="login-go-back">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-3 h-3 inline"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M18.75 19.5l-7.5-7.5 7.5-7.5m-6 15L5.25 12l7.5-7.5"
+            />
+          </svg>
+          Go back to main site
+        </button>
+        <img
+          class="mb-5 w-2/3"
+          src="./assets/img/T1 Logo.png"
+          alt="company logo"
+        />
+        <div class="login-left-text">Please login to continue</div>
+      </div>
+      <div class="login-right">
+        <div class="login-right-content">
+          <h1 class="text-2xl text-slate-600 font-bold mb-2">Login</h1>
+          <p class="text-slate-600 font-bold mb-4">
+            Please enter your login credentials.
+          </p>
+          <form action="">
+            <div class="login-field">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6 mr-2 inline text-slate-400"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z"
+                />
+              </svg>
+
+              <input
+                class="outline-none flex-1"
+                placeholder="Enter your active username"
+                type="text"
+                name="username"
+                id="username"
+                autocomplete="username"
+              />
+            </div>
+            <div class="login-field">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6 mr-2 inline text-slate-400"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z"
+                />
+              </svg>
+
+              <input
+                class="outline-none flex-1"
+                placeholder="Enter your account's password"
+                type="password"
+                name="password"
+                id="password"
+                autocomplete="current-password"
+              />
+            </div>
+            <div class="flex justify-center md:justify-end">
+              <button class="login-btn">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  class="w-6 h-6 mr-2 inline text-left"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M7.5 3.75A1.5 1.5 0 006 5.25v13.5a1.5 1.5 0 001.5 1.5h6a1.5 1.5 0 001.5-1.5V15a.75.75 0 011.5 0v3.75a3 3 0 01-3 3h-6a3 3 0 01-3-3V5.25a3 3 0 013-3h6a3 3 0 013 3V9A.75.75 0 0115 9V5.25a1.5 1.5 0 00-1.5-1.5h-6zm10.72 4.72a.75.75 0 011.06 0l3 3a.75.75 0 010 1.06l-3 3a.75.75 0 11-1.06-1.06l1.72-1.72H9a.75.75 0 010-1.5h10.94l-1.72-1.72a.75.75 0 010-1.06z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+                Login
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"
+    defer
+  ></script>
+  <script
+    src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.28//angular-route.min.js"
+    defer
+  ></script>
+  <script src="./assets/js/app.js" defer></script>
+</html>

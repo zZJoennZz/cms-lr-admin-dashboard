@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>T1 Solutions</title>
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="min-h-screen m-w-full grid grid-cols-12">
+      <div class="dashboard-sidebar">
+        <div class="hidden md:block p-7 mb-7 border-b border-slate-600">
+          <img src="../assets/img/T1 Logo White.png" alt="T1 Solutions Logo" />
+        </div>
+        <div class="group sidebar-card">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6 text-slate-400 group-hover:text-cyan-300 transition-all"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M8.25 21v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21m0 0h4.5V3.545M12.75 21h7.5V10.75M2.25 21h1.5m18 0h-18M2.25 9l4.5-1.636M18.75 3l-1.5.545m0 6.205l3 1m1.5.5l-1.5-.5M6.75 7.364V3h-3v18m3-13.636l10.5-3.819"
+            />
+          </svg>
+
+          <span
+            class="hidden md:block border-b border-slate-700 group-hover:border-slate-400 group-hover:border-b text-slate-400 group-hover:text-white transition-all"
+            >Home</span
+          >
+
+          <div
+            class="absolute w-52 p-4 left-52 rounded-md shadow-md text-slate-600 bg-white font-bold transition-all duration-100 scale-0 origin-left group-hover:scale-100"
+          >
+            <p class="text-md mb-3">Home</p>
+            <ul>
+              <li>Test</li>
+              <li>Test</li>
+              <li>Test</li>
+              <li>Test</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="group sidebar-card">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6 text-slate-400 group-hover:text-cyan-300 transition-all"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L10.582 16.07a4.5 4.5 0 01-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 011.13-1.897l8.932-8.931zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0115.75 21H5.25A2.25 2.25 0 013 18.75V8.25A2.25 2.25 0 015.25 6H10"
+            />
+          </svg>
+
+          <span
+            class="hidden md:block border-b border-slate-700 group-hover:border-slate-400 group-hover:border-b text-slate-400 group-hover:text-white transition-all"
+            >Pages</span
+          >
+        </div>
+
+        <div class="group sidebar-card">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6 text-slate-400 group-hover:text-cyan-300 transition-all"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z"
+            />
+          </svg>
+
+          <span
+            class="hidden md:block border-b border-slate-700 group-hover:border-slate-400 group-hover:border-b text-slate-400 group-hover:text-white transition-all"
+            >Users</span
+          >
+        </div>
+
+        <div class="group sidebar-card">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6 text-slate-400 group-hover:text-cyan-300 transition-all"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M11.42 15.17L17.25 21A2.652 2.652 0 0021 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 11-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 004.486-6.336l-3.276 3.277a3.004 3.004 0 01-2.25-2.25l3.276-3.276a4.5 4.5 0 00-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437l1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008z"
+            />
+          </svg>
+
+          <span
+            class="hidden md:block border-b border-slate-700 group-hover:border-slate-400 group-hover:border-b text-slate-400 group-hover:text-white transition-all"
+            >Settings</span
+          >
+        </div>
+      </div>
+      <div class="dashboard-content overflow-y-scroll">
+        <div class="topbar">
+          <div class="p-3 border-b">
+            <span class="text-slate-500 text-lg font-bold">Dashboard</span>
+            <div class="float-right">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M10.343 3.94c.09-.542.56-.94 1.11-.94h1.093c.55 0 1.02.398 1.11.94l.149.894c.07.424.384.764.78.93.398.164.855.142 1.205-.108l.737-.527a1.125 1.125 0 011.45.12l.773.774c.39.389.44 1.002.12 1.45l-.527.737c-.25.35-.272.806-.107 1.204.165.397.505.71.93.78l.893.15c.543.09.94.56.94 1.109v1.094c0 .55-.397 1.02-.94 1.11l-.893.149c-.425.07-.765.383-.93.78-.165.398-.143.854.107 1.204l.527.738c.32.447.269 1.06-.12 1.45l-.774.773a1.125 1.125 0 01-1.449.12l-.738-.527c-.35-.25-.806-.272-1.203-.107-.397.165-.71.505-.781.929l-.149.894c-.09.542-.56.94-1.11.94h-1.094c-.55 0-1.019-.398-1.11-.94l-.148-.894c-.071-.424-.384-.764-.781-.93-.398-.164-.854-.142-1.204.108l-.738.527c-.447.32-1.06.269-1.45-.12l-.773-.774a1.125 1.125 0 01-.12-1.45l.527-.737c.25-.35.273-.806.108-1.204-.165-.397-.505-.71-.93-.78l-.894-.15c-.542-.09-.94-.56-.94-1.109v-1.094c0-.55.398-1.02.94-1.11l.894-.149c.424-.07.765-.383.93-.78.165-.398.143-.854-.107-1.204l-.527-.738a1.125 1.125 0 01.12-1.45l.773-.773a1.125 1.125 0 011.45-.12l.737.527c.35.25.807.272 1.204.107.397-.165.71-.505.78-.929l.15-.894z"
+                />
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                />
+              </svg>
+            </div>
+          </div>
+          <div class="p-3 flex">
+            <div class="flex-1">
+              <ul>
+                <li class="inline mr-3">Quicklinks</li>
+                <li class="inline mr-3">Quicklinks</li>
+                <li class="inline mr-3">Quicklinks</li>
+              </ul>
+            </div>
+            <div class="float-right">January 1, 2023</div>
+          </div>
+        </div>
+        <div class="w-10/12 mx-auto">
+          <div
+            class="grid grid-cols-1 space-y-3 md:space-y-0 md:grid-cols-3 md:space-x-3 mt-5"
+          >
+            <div class="bg-red-500 rounded-lg p-4 text-white">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-8 h-8 mb-3"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M2.25 18.75a60.07 60.07 0 0115.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 013 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 00-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 01-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 003 15h-.75M15 10.5a3 3 0 11-6 0 3 3 0 016 0zm3 0h.008v.008H18V10.5zm-12 0h.008v.008H6V10.5z"
+                />
+              </svg>
+              <div class="text-2xl font-bold">Recent Sales</div>
+              <div class="text-sm mb-4">Sales for the last 7 days</div>
+              <div class="text-3xl font-bold">$ 500.00</div>
+            </div>
+            <div class="bg-green-600 rounded-lg p-4 text-white">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-8 h-8 mb-3"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z"
+                />
+              </svg>
+
+              <div class="text-2xl font-bold">Recent Members</div>
+              <div class="text-sm mb-4">New members for the last 7 days</div>
+              <div class="text-3xl font-bold">
+                69 <span class="text-lg">members</span>
+              </div>
+            </div>
+            <div class="bg-blue-500 rounded-lg p-4 text-white">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-8 h-8 mb-3"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"
+                />
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                />
+              </svg>
+
+              <div class="text-2xl font-bold">Impressions</div>
+              <div class="text-sm mb-4">
+                Total impressions for the last 7 days
+              </div>
+              <div class="text-3xl font-bold">23,102</div>
+            </div>
+          </div>
+
+          <div
+            class="grid grid-cols-1 space-y-3 md:space-y-0 md:grid-cols-2 md:space-x-3 mt-5"
+          >
+            <div class="bg-white rounded-lg p-4">
+              <div class="text-lg font-bold">Sales</div>
+              <canvas class="p-10" id="chartLine"></canvas>
+              <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+              <!-- Chart line -->
+              <script>
+                const labels = [
+                  "January",
+                  "February",
+                  "March",
+                  "April",
+                  "May",
+                  "June",
+                ];
+                const data = {
+                  labels: labels,
+                  datasets: [
+                    {
+                      label: "My First dataset",
+                      backgroundColor: "hsl(252, 82.9%, 67.8%)",
+                      borderColor: "hsl(252, 82.9%, 67.8%)",
+                      data: [0, 10, 5, 2, 20, 30, 45],
+                    },
+                  ],
+                };
+
+                const configLineChart = {
+                  type: "line",
+                  data,
+                  options: {},
+                };
+
+                var chartLine = new Chart(
+                  document.getElementById("chartLine"),
+                  configLineChart
+                );
+              </script>
+            </div>
+            <div class="bg-white rounded-lg p-4">
+              <canvas class="p-10" id="chartBar1"></canvas>
+              <script>
+                const labelsBarChart = [
+                  "January",
+                  "February",
+                  "March",
+                  "April",
+                  "May",
+                  "June",
+                ];
+                const dataBarChart = {
+                  labels: labelsBarChart,
+                  datasets: [
+                    {
+                      label: "My First dataset",
+                      backgroundColor: "hsl(252, 82.9%, 67.8%)",
+                      borderColor: "hsl(252, 82.9%, 67.8%)",
+                      data: [0, 10, 5, 2, 20, 30, 45],
+                    },
+                  ],
+                };
+
+                const configBarChart = {
+                  type: "bar",
+                  data: dataBarChart,
+                  options: {},
+                };
+
+                var chartBar = new Chart(
+                  document.getElementById("chartBar1"),
+                  configBarChart
+                );
+              </script>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"
+    defer
+  ></script>
+  <script
+    src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.28//angular-route.min.js"
+    defer
+  ></script>
+  <script src="../assets/js/app.js" defer></script>
+</html>
